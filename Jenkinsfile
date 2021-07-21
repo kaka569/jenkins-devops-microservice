@@ -2,7 +2,7 @@
 
 pipeline{
 	    //agent any
-		agent { any { image 'maven:3.8.1'}}
+		agent { any { image 'maven:3.6.3'}}
 		stages{
 			stage('build'){
 				steps {
