@@ -19,7 +19,9 @@ pipeline{
 
 				}
 			}
-		} post{
+		} 
+		
+		post{
 			always{
 				echo "im awesome.i run always."
 			}
